@@ -2,12 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: OpenSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
+  color: #0070f3;
   text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ h1,
 h2,
 p,
 ul {
-  margin: 0;
+  margin: 0 0 1em; /* Add bottom margin to paragraphs */
 }
 
 ul {
